@@ -1,0 +1,11 @@
+import java.io.*;
+
+class FileDemo {
+    public static void main(String[] args) throws IOException {
+        FileWriter fw = new FileWriter("test.txt");
+        fw.write("Hello Java");
+        fw.close();
+
+        System.out.println("Data Written");
+    }
+}
